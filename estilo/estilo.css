@@ -1,0 +1,52 @@
+ /* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  padding: 90px 20px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4bc02b ;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  align-items: center;
+}
+
+.logo {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+} */
+
+
+
+
+<!-- Estilo personalizado -->
+<style>
+    .navbar-light .navbar-toggler-icon {
+        background-color: transparent; /* Quita la decoración de la flecha */
+    }
+
+    .navbar, .btn {
+        font-size: 18px; /* Tamaño de fuente más grande */
+    }
+
+    .navbar-brand {
+        font-size: 24px; /* Tamaño de fuente aún más grande para SPAG */
+    }
+
+    .row {
+        background-color: gray; /* Fondo gris para la clase row */
+        margin: 0 -15px; /* Elimina el espacio horizontal entre las columnas */
+    }
+</style>

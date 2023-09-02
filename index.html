@@ -1,16 +1,92 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <title>Cocina facil y rapida</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+                <a href="index.html" class="logo">SPAG</a>
+            <div class="menu-icono">
+            <img src="./imagenes/header/navbar/menu.svg" alt="Menú">
+                <ul class="menu-hijos">
+                    <li><a href="">texto</a></li>
+                    <li><a href="">texto</a></li>
+                    <li><a href="">texto</a></li>
+                    <li><a href="">texto</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="sub-menu">
+            <ul>
+                <li><img src="./imagenes/header/subnavbar/tendencia.svg" alt="imagen tendencia"></li>
+                <li><img src="./imagenes/header/subnavbar/crear.svg"  alt="imagen crear"></li>
+                <li><img src="./imagenes/header/subnavbar/aleatorio.svg"   alt="imagen aleatorio"></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>-->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cocina facil y rapida</title>
+    <!-- Enlace al archivo CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 <body>
-    <h1>DALEeeeEEEE</h1>
-    <h2>se arranca</h2>
-    <h2>se arranca</h2>
-    <h2>se arranca</h2>
-    <h2>se arranca</h2>
-    <h2>se arranca</h2>
+    <header class="header">
+        <!-- Barra de navegación con logo y menú -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">SPAG</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="./imagenes/header/navbar/menu.svg" alt=""></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Ajustes</a></li>
+                                <li><a class="dropdown-item" href="#">Cuenta</a></li>
+                                <li><a class="dropdown-item" href="#">Salir</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Submenú con tres botones -->
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-4">
+                    <button type="button" class="btn btn-primary btn-block"><img src="./imagenes/header/subnavbar/aleatorio.svg" alt="aleatorio"></button>
+                </div>
+                <div class="col-4">
+                    <button type="button" class="btn btn-primary btn-block"><img src="./imagenes/header/subnavbar/crear.svg" alt="crear"></button>
+                </div>
+                <div class="col-4">
+                    <button type="button" class="btn btn-primary btn-block"><img src="./imagenes/header/subnavbar/tendencia.svg" alt="tendencia"></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Agregar los archivos JS de Bootstrap (jQuery y Popper.js) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js"></script>
 </body>
-</html>
+</html
