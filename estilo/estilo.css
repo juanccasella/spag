@@ -18,54 +18,49 @@
   margin-right: 10px;
 }
 
-/* Estilo para los elementos de la barra de navegación cuando se pasa el mouse por encima */
 .navbar-nav .nav-link:hover,
 .navbar-toggler-icon:hover,
 .dropdown-item:hover,
 .navbar-brand:hover {
-  background-color: white; /* Cambia el fondo a blanco */
-  transform: scale(1.1); /* Aumenta el tamaño en un 10% */
-  border-radius: 10px; /* Agrega bordes redondeados */
+  background-color: white; 
+  transform: scale(1.1); 
+  border-radius: 10px; 
   transition: background-color 0.3s, transform 0.3s; 
 }
 
-/* Estilo para el botón del submenú cuando se pasa el mouse por encima */
 #sub-menu-button:hover {
-  background-color: white; /* Cambia el fondo a blanco */
-  transform: scale(1.1); /* Aumenta el tamaño en un 10% */
-  border-radius: 10px; /* Agrega bordes redondeados */
-  transition: background-color 0.3s, transform 0.3s; /* Agrega una transición suave */
+  background-color: white; 
+  transform: scale(1.1); 
+  border-radius: 10px; 
+  transition: background-color 0.3s, transform 0.3s; 
 }
 
-/* Estilo personalizado para la caja de comentarios y botón de búsqueda */
 .input-group-custom {
-  background-color: #f5f5f5; /* Gris muy suave como fondo */
+  background-color: #f5f5f5; 
 }
 
 .input-group-custom input[type="text"] {
-  background-color: transparent; /* Elimina el fondo gris del input */
-  border: #000000; /* Elimina el borde del input */
-  border-radius: 0; /* Elimina el borde redondeado del input */
+  background-color: transparent; 
+  border: #000000; 
+  border-radius: 0; 
 }
 
-/* Estilo para las imágenes de fondo */
 .image-container {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
-  font-size: 100px; /* Tamaño de fuente más grande */
-  font-weight: bold; /* Texto en negrita */
-  padding: 30px 0; /* Espacio alrededor del texto */
-  margin: 10px; /* Espacio entre las imágenes */
-  height: 300px; /* Altura de las imágenes */
+  font-size: 100px; 
+  font-weight: bold; 
+  padding: 30px 0; 
+  margin: 10px; 
+  height: 300px; 
   display: flex;
   justify-content: center;
   align-items: center;
   opacity: 0.6
 }
 
-/* Cambiar la opacidad solo de la imagen de fondo */
 .image-text {
   color: #000000;
   opacity: 1;
